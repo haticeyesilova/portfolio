@@ -1,5 +1,5 @@
 .footer {
-  background-color: #1E3A8A; /* koyu mavi */
+  background-color: #1E3A8A; 
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -16,7 +16,7 @@
 }
 
 .social-icons a {
-  color: #93C5FD; /* açık mavi */
+  color: #93C5FD; 
   font-size: 1.5rem;
   transition: all 0.3s ease;
 }
