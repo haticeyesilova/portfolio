@@ -11,7 +11,7 @@ const About = () => {
           I'm Hatice, a passionate Software Engineer specializing in full-stack development.
           I love building interactive web applications using React, Node.js, Express, and MongoDB.
         </p>
-
+        
         <div className="skills">
           <div className="skill-card">
             <FaReact size={50} color="#61DBFB"/>
@@ -30,16 +30,20 @@ const About = () => {
             <p>JavaScript</p>
           </div>
           <div className="skill-card">
-            <p style={{fontSize:'50px', margin:0, color:'#3178C6'}}>TS</p>
+            <p style={{fontSize:'40px', margin:0, color:'#3178C6'}}>TS</p>
             <p>TypeScript</p>
           </div>
           <div className="skill-card">
-            <p style={{fontSize:'50px', margin:0, color:'#FF7F50'}}>SQL</p>
+            <p style={{fontSize:'40px', margin:0, color:'#FF7F50'}}>SQL</p>
             <p>SQL</p>
           </div>
           <div className="skill-card">
             <FaGitAlt size={50} color="#F1502F"/>
             <p>Git</p>
+             <div className="skill-card">
+          <p style={{fontSize:'40px', margin:0,margin:0, color:'#FFD43B'}}>PY</p>
+          <p>Python</p>
+        </div>
           </div>
         </div>
       </div>

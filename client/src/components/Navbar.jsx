@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
 
+
+
+
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -26,10 +29,18 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        
+        <li>
+        <a
+        href="/cv.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="cv-btn"
+        >CV</a>
+        </li>
       </ul>
     </nav>
   );
 };
 
 export default Navbar;
-
